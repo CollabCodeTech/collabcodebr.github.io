@@ -1,0 +1,56 @@
+.redesSociais {
+  margin: 50px;
+  text-align: center;
+}
+
+.redesSociais__label {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.redesSociais__logo {
+  /* tamanho da imagem */
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+
+  background-repeat: no-repeat;
+
+  /* imagem replacement */
+  display: inline-block;
+  text-indent: -9999px;
+  color: transparent;
+}
+
+.redesSociais__logo:hover {
+  transform: scale(1.2);
+}
+
+.redesSociais__logo--github {
+  background-image: url(../img/github.svg);
+}
+
+.redesSociais__logo--telegram {
+  background-image: url(../img/telegram.svg);
+}
+
+.redesSociais__logo--medium {
+  background-image: url(../img/medium.svg);
+}
+
+.redesSociais__logo--facebook {
+  background-image: url(../img/facebook.svg);
+}
+
+.redesSociais__logo--twitter {
+  background-image: url(../img/twitter.svg);
+}
+
+.redesSociais__logo--youtube {
+  background-image: url(../img/youtube.svg);
+  opacity: 0.2;
+}
+
+.redesSociais__logo--meetup {
+  background-image: url(../img/meetup.svg);
+}
