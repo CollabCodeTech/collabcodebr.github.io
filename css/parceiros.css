@@ -1,0 +1,38 @@
+.parceiros {
+  margin: 50px;
+  text-align: center;
+}
+
+.parceiros__label {
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.parceiros__logo {
+  /* tamanho da imagem */
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+
+  /* imagem replacement */
+  display: inline-block;
+  text-indent: -9999px;
+  color: transparent;
+}
+
+.parceiros__logo:hover {
+  transform: scale(1.2);
+}
+
+.parceiros__logo--caelum {
+  background-image: url(../img/caelum.svg);
+}
+
+.parceiros__logo--alura {
+  background-image: url(../img/alura.svg);
+  background-size: 135px;
+}
